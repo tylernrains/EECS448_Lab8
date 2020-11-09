@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CSS Manipulation</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Exercise 4: CSS Manipulation</h1>
+            <p>Enter rbg values (0-255) into the boxes below, and a number of pixels for the width, to change how the paragraph looks, hit the "Enter" button when every box is filled.</p>
+        </header>
+
+        <main>
+            <div id="border">
+                Border:
+                <input type="text" id="bord_red" placeholder="red value">    
+                <input type="text" id="bord_green" placeholder="green value">
+                <input type="text" id="bord_blue" placeholder="blue value">
+                <input type="text" id="bord_width" placeholder="width">
+            </div>
+            <div id="background">
+                Background Color:
+                <input type="text" id="back_red" placeholder="red value">    
+                <input type="text" id="back_green" placeholder="green value">
+                <input type="text" id="back_blue" placeholder="blue value">
+                <input type="text" id="back_width" placeholder="width">
+            </div>
+            <div id="enter_container">
+                <button id="enter"> Enter </button>
+            </div>
+            <div id="paragraph">
+                <p class="lorem" id="para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi est, porta eu ultrices id, gravida vitae massa. 
+                    Sed consectetur tortor at turpis finibus consectetur non vel ligula. Duis porttitor enim mauris, id malesuada magna porta sit amet. 
+                    Aliquam eleifend malesuada interdum. Aenean luctus dui quis orci consectetur pretium. Fusce rhoncus interdum mi non suscipit. Ut in finibus purus. 
+                    Aenean justo libero, commodo eu vulputate porttitor, iaculis a elit. Duis vestibulum lectus nec lorem feugiat fermentum. In non auctor tellus. 
+                    Sed sit amet convallis tellus, quis rhoncus libero. Aliquam in lacus efficitur, interdum lectus eget, vulputate dui. 
+                    Aenean convallis ligula at purus finibus, a tempus ligula venenatis. Praesent convallis purus id libero dignissim malesuada. 
+                    Aliquam eget ligula vulputate, imperdiet massa sit amet, interdum nisl. 
+                </p>
+            </div>
+        </main>
+
+        <footer> Tyler Rains, EECS 448, Lab 8 </footer>
+        <script src="main.js"></script>
+    </body>
+</html>

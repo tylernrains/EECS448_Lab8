@@ -1,0 +1,52 @@
+body{
+    font: Georgia;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    padding-top: 5%;
+}
+
+p{
+    font: Georgia;
+    width: 100%;
+    text-align: center;
+}
+
+p.lorem{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid;
+}
+
+footer{
+    font: Georgia;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#border{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#background{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#enter_container{
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,44 @@
+body{
+    font: 15px/1.5 Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer{
+    position: absolute;
+    bottom: 5px;
+    width: 99%;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+#img_container{
+    padding-top: 10px;
+    margin: 0;
+}
+
+img{
+    width: 45%;
+}
+
+button{
+    background-color: darkgray;
+    padding: 0 5%;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
