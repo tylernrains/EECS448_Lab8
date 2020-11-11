@@ -1,0 +1,52 @@
+body{
+    font: Georgia;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    padding-top: 15px;
+}
+
+h2{
+    font: Georgia;
+    background-color: rgb(169, 188, 230);
+    width: 100%;
+    text-align: center;
+    font-size: 25pt;
+    padding: 10px 0;
+    color: rgb(12, 12, 100);
+}
+
+footer{
+    font: Georgia;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 14pt;
+}
+
+p.emphasis{
+    color:  rgb(88, 13, 13);
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    color: blue;
+}
