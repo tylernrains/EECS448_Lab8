@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded",() =>
         else
         {
             alert("Password Accepted!");
+            e.preventDefault();
         }
 	});
 });
